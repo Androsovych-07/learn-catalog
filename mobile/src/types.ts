@@ -1,5 +1,5 @@
-export type Resource = {
-  id: number;
+export interface Resource {
+  id: string;
   title: string;
   minutes: number;
-};
+}
